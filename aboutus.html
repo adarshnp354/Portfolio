@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
+    <div class="a">
+        <h1>PORTFOLIO</h1>
+    </div>
+    <div class="c">
+    <div class="container">
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="portfolio.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="port.html">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="aboutus.html">ABOUT US</a>
+            </li>
+        </ul>
     <h1>ABOUT US</h1>
+    <p>This is our new portfolio</p>
+        <form>
+            <div>
+            <input type="text" placeholder="Name">
+            </div><br>
+            <div>
+            <input type="email" placeholder="Enter your email">
+            </div><br>
+            <div>
+            <input type="text" placeholder="Enter your comment">
+            </div><br>
+            <div>
+            <input type="button" value="SEND" onclick="sucess()">
+            </div><br>
+        </form>
+        <p id="ook"></p>
+        </div>
+        </div>
+        <script>
+        function sucess(){
+            document.getElementById("ook")= "SUCESS!!!!!";
+        }
+        </script>
+        <footer>
+            <a href="#">Terms</a>
+            <a href="#">Conditions</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Help</a>
+            <a href="#">Blog</a>
+            <a href="#">Advertising</a>
+            <a href="#">API</a>
+            <a href="#">Info</a>
+            <a href="aboutus.html">About</a>
+        </footer>
 </body>
 </html>
