@@ -8,20 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <title>Document</title>
-    <style>
-        .a{
-            text-align: center;
-            background-image: url("picture/bgrnd.png");
-            background-size:1600px 800px;
-            padding-top: 500px;
-        }
-        .container{
-            text-align: center;
-        }
-        li{
-            padding-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <div class="a">
@@ -30,56 +17,33 @@
     <div class="container">
         <ul class="nav nav-pills" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="pill" href="#home">HOME</a>
+                <a class="nav-link active" data-toggle="pill" href="portfolio.html">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="pill" href="#port">PORTFOLIO</a>
+                <a class="nav-link active" data-toggle="pill" href="port.html">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="pill" href="#about">ABOUT US</a>
+                <a class="nav-link active" data-toggle="pill" href="aboutus.html">ABOUT US</a>
             </li>
         </ul>
         <div class="tab-content">
-                <div id="home" class="container tab-pane active"><br>
-                  <h3>HOME</h3>
-                  <p>THIS IS JUST A HOME PAGE</p>
-                </div>
-                <div id="port" class="container tab-pane fade"><br>
-                  <h3>PORTFOLIO</h3>
-                  <div>
-                    <img src="../Portfolio/picture/beach.jpg">
-                  </div>
-                  <div>
-                      <img src="../Portfolio/picture/ocean.jpg">
-                  </div>
-                  <div>
-                      <img src="../Portfolio/picture/mountainskies.jpg">
-                  </div>
-                  <div>
-                      <img src="../Portfolio/picture/mountains2.jpg">
-                  </div>
-                  <div>
-                      <img src="../Portfolio/picture/falls2.jpg">
-                  </div>
-                </div>
-                <div id="about" class="container tab-pane fade"><br>
-                  <h3>ABOUT US</h3>
-                  <p>This is our new portfolio</p>
-                  <form>
-                      <input type="text" placeholder="Name">
-                      <input type="email" placeholder="Enter your email">
-                      <input type="text" placeholder="Enter your comment">
-                      <input type="button" value="SEND" onclick="sucess()">
-                  </form>
-                  <p id="ook"></p>
-              </div>
+            <div id="home" class="container tab-pane active"><br>
+                <h3>HOME</h3>
+                <p>THIS IS JUST A HOME PAGE</p>
             </div>
         </div>
-    </div>
-    <script>
-        function sucess(){
-            document.getElementById("ook")= "SUCESS!!!!!";
-        }
-    </script>
+<footer>
+    <a href="#">Terms</a>
+    <a href="#">Conditions</a>
+    <a href="#">Privacy</a>
+    <a href="#">Security</a>
+    <a href="#">Help</a>
+    <a href="#">Blog</a>
+    <a href="#">Advertising</a>
+    <a href="#">API</a>
+    <a href="#">Info</a>
+    <a href="aboutus.html">About Us</a>
+</footer>
+</div>
 </body>
 </html>
